@@ -1,0 +1,7 @@
+library(data.table)
+library(dplyr)
+
+choose.files()
+
+write.csv(data2013, file = "data2013.csv")
+write.csv(resultados2013, file = "resultados2013.csv")
